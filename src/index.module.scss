@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "SemiBold";
+  src: url("./fonts/Open_Sans/static/OpenSans-SemiBold.ttf") format("truetype");
+  
+}
+@font-face {
+  font-family: "Regular";
+  src: url("./fonts/Open_Sans/static/OpenSans-Regular.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: "SemiBold", "Regular", sans-serif;
+  
+}

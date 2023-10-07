@@ -1,0 +1,27 @@
+.task-list {
+    margin-top: 20px;
+    text-align: left;
+}
+.task-more {
+    width: 100%;
+    height: 50px;
+    font-family: 'SemiBold';
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: .5px;
+    line-height: 20px;
+    text-transform: uppercase;
+    background-color: #2196F3;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.error-message {
+    text-align: center;
+    margin: 20px;
+    font-size: 25px;
+}
+.loader {
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+$borderBtn: #DFE5EC;
+$activeColor: #2196F3;
+$btnColor: #FFF;
+
+.search-btn {
+    
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.btn {
+    cursor: pointer;
+    font-family: 'SemiBold', sans-serif;
+    text-transform: uppercase;
+    padding: 15px;
+    background-color: $btnColor;
+    border: 1px solid $borderBtn;
+    width: 33.3%;
+    transition: .3s;
+
+    &:first-child{
+        border-radius: 5px 0 0 5px ;
+    }
+
+    &:last-child {
+        border-radius: 0 5px 5px 0
+    }
+}
+.active {
+    background-color: $activeColor;
+}

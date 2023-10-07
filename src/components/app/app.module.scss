@@ -1,0 +1,38 @@
+$mainColor: #F3F7FA;
+
+p{
+    margin: 0;
+    
+}
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: $mainColor;
+    padding: 50px 103px;
+    
+    
+    .main-logo {
+        margin: 50px;
+        margin-top: 0;
+        transition: .3s;
+        cursor: pointer;
+
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+    .main-block {
+        font-family: 'SemiBold', sans-serif;
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        
+    }
+    .main-search {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+}
